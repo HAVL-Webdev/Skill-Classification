@@ -6,7 +6,6 @@ import { NavLink } from "react-router-dom";
 function Skill() {
   return (
     <div className='skill'>
-      <h1>Occupation Profile</h1>
       <h5>Choose the skills you have</h5>
       <div className='container'>
         {skills.map((skill) => {

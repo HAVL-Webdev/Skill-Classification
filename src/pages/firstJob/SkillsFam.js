@@ -6,7 +6,6 @@ import "./style.css";
 function SkillsFam() {
   return (
     <div>
-      <h1>Occupation Profile</h1>
       <h5>Choose a Skill Cluster Family</h5>
       <div className='container'>
         {skillClusters.map(skillCluster => {

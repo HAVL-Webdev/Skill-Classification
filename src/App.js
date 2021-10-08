@@ -1,4 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Header from "../src/components/header/Header";
+import Footer from "../src/components/footer/Footer";
 import Home from "../src/pages/home/Home";
 import SkillsFamA from "./pages/firstJob/SkillsFam";
 import SkillA from "./pages/firstJob/Skill";
@@ -11,6 +13,7 @@ function App() {
   return (
     <Router>
       <div className='App'>
+        <Header />
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/firstjob' component={SkillsFamA} />
@@ -20,6 +23,7 @@ function App() {
           <Route exact path='/result_a' component={Result_A} />
           <Route exact path='/result_b' component={Result_B} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
