@@ -4,8 +4,6 @@ import Card from "../../components/card/Card";
 import "./style.css";
 
 function SkillsFam() {
-  // const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
-
   return (
     <div>
       <h1>Occupation Profile</h1>
