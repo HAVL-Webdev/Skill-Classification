@@ -1,25 +1,19 @@
-import skills from '../../data/skillsData';
-import Card from "../../components/card/Card";
-import Job from '../job/Job';
-import "./style.css";
-import { NavLink } from "react-router-dom";
 import { useState } from 'react';
-import { useHistory } from 'react-router-dom';
-import {Redirect} from 'react-router-dom';
+import skills from '../../data/skillsData';
+//import Card from "../../components/card/Card";
+import "./style.css";
 
 
-
-function Skill() {
+function Skill(props) {
   const [job, setJob] = useState();
   const handleClick = (id) => { 
-    
     const result =  skills.find((skill)=> skill.id === id);
-    
     const jobs = result.occupation.map(j => j.title);
     setJob(jobs);
-
-    console.log(jobs);
-    // return (<Job jobs={result.occupation} />)       
+    props.history.push({
+      pathname: "/job",
+      jobs: result.occupation
+    });      
   }
   return (
     <div className='skill'>
@@ -31,22 +25,9 @@ function Skill() {
           </button>
           );
         })}
-      </div>
-      {/* <NavLink to='/job'><Job job={job} /> </NavLink> */}
-      {/* <Job job={job} handleClick={handleClick}/> */}
-      {handleClick && (<NavLink to='/job'><Job job={job} /> </NavLink>)}          
+      </div>       
     </div> 
   );
 }
 
 export default Skill;
-
-{/* <Card key={skill.id} 
-  id={skill.id}
-  title={skill.skill}
-  onClick= {() => handleClick(skill.id) }/> */}     
-  
-  {/* <NavLink to='/job'> */}
-              {/* </NavLink> */}
-
-              // (<NavLink to='/job'><Job job={job} /> </NavLink>)
