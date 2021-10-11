@@ -1,0 +1,15 @@
+.skill {
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h1,
+  h5 {
+    margin-left: 2rem;
+  }
+  .navlink {
+    text-decoration: none;
+    color: black;
+  }
