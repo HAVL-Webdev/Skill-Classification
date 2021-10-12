@@ -1,20 +1,24 @@
 import skillClusters from '../../data/skillClustersData';
-import { NavLink } from "react-router-dom";
 import Card from "../../components/card/Card";
 import "./style.css";
 
-function SkillCluster() {
+function SkillCluster(props) {
+  const handleClick = (id) => {
+    props.history.push({
+      pathname: "/skill"
+    });
+  };
   return (
     <div>
       <h5>Choose a Skill Cluster</h5>
       <div className='container'>
         {skillClusters.map(skillCluster => {
           return (
-            <div>
-              <NavLink className='navlink' to='/skill'>
-                <Card key={skillCluster.id}  title={skillCluster.cluster} />
-              </NavLink>
-            </div>
+            <Card key={skillCluster.id} 
+                  id={skillCluster.id} 
+                  title={skillCluster.cluster}
+                  cardClickHandler={handleClick}
+                  />
           );
         })}
       </div>

@@ -1,5 +1,4 @@
-//import skills from '../../data/skillsData';
-import Card from "../../components/card/Card";
+//import Card from "../../components/card/Card";
 import './style.css';
 
 const Job = (props) => {
