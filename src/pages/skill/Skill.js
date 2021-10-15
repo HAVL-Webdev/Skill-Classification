@@ -6,7 +6,7 @@ import "./style.css";
 function Skill(props) {
   const handleClick = (id) => { 
     const result =  skills.find((skill)=> skill.id === id);
-    props.history.push({
+      props.history.push({
       pathname: "/job",
       jobs: result.occupation,
       skill: result.skill
