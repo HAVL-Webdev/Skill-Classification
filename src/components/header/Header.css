@@ -1,0 +1,23 @@
+header {
+    display: flex;
+}
+
+.logo {
+    display: block;
+    width: 20%;
+    margin: 1rem auto;
+}
+
+header ul {
+    position: absolute;
+    right: 0;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+header ul li {
+    padding: 0 2vw;
+}

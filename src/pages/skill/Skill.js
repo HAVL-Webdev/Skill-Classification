@@ -14,7 +14,7 @@ function Skill(props) {
   }
   return (
     <div className='skill'>
-      <h5>Choose the skill you have</h5>
+      <h1>Choose the skill you have</h1>
       <div className='container'>
         {
           skills.map(skill => {

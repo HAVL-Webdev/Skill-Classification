@@ -1,1 +1,8 @@
+#skillcluster_wrapper {
+    text-align: center;
+    background-color: #e6e7e7;
+}
 
+#skillcluster_wrapper .container {
+    justify-content: center;
+}

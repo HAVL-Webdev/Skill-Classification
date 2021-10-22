@@ -5,12 +5,14 @@ import './Footer.css';
 
 const Footer = () => (
     <footer>
-        <p>&copy; CHAVEL 2021 All Rights Reserved</p>
-        <p>Privacy Policy</p>
-        <p>info@chavel.com.au</p>
-        <FontAwesomeIcon icon={faTwitter} />
-        <FontAwesomeIcon icon={faFacebook} />
-        <FontAwesomeIcon icon={faLinkedin} />
+        <ul>
+            <li><p>&copy; CHAVEL 2021 All Rights Reserved</p></li>
+            <li><p>Privacy Policy</p></li>
+            <li><p>info@chavel.com.au</p></li>
+            <li><FontAwesomeIcon icon={faTwitter} /></li>
+            <li><FontAwesomeIcon icon={faFacebook} /></li>
+            <li><FontAwesomeIcon icon={faLinkedin} /></li>
+        </ul>
     </footer>
 )
 

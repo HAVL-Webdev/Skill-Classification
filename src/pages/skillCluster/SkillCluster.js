@@ -9,8 +9,8 @@ function SkillCluster(props) {
     });
   };
   return (
-    <div>
-      <h5>Choose a Skill Cluster</h5>
+    <div id="skillcluster_wrapper">
+      <h1>Choose a Skill Cluster</h1>
       <div className='container'>
         {skillClusters.map(skillCluster => {
           return (

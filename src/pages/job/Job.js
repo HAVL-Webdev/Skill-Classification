@@ -5,7 +5,7 @@ const Job = (props) => {
     const jobs = (props.location && props.location.jobs) || null;
     const skill = (props.location && props.location.skill) || null;
     return (
-        <div>
+        <div id="job_wrapper">
             <h1>{skill}</h1>
             <h1>Skill used in following roles</h1>
             <div>
