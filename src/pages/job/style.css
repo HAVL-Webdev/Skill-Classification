@@ -1,8 +1,11 @@
 #job_wrapper {
     text-align: center;
-    background-color: #e6e7e7;
+    background-color: #e6e7e8;
+    width: 640px;
+    margin: 0 auto;
 }
 
 #job_wrapper ul {
-    padding-bottom: 2rem;
+    padding: 1rem 0;
+    list-style-position: inside;
 }

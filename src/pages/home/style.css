@@ -1,15 +1,14 @@
-.home {
-    background-color: #e6e7e7;
-}
-
 #home_wrapper {
-    width: 52vw;
+    width: 640px;
     text-align: center;
     margin: auto;
+    background-color: #e6e7e8;
+    font-size: 13px;
 }
 
 h1 {
     padding-top: 3rem;
+    margin-top: 0;
     font-size: 1.2rem;
 }
 
