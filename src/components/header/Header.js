@@ -6,7 +6,7 @@ const Header = () => (
         <div class="container">
             <section id="blue_bar"></section>
 
-            <img className="logo" src={logo} alt={logo} />
+           <img className="logo" src={logo} alt={logo} />
             
             <ul>
                 <li>Home</li>

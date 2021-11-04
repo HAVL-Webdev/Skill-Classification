@@ -5,13 +5,14 @@ p {
 }
 
 .card {
-  border: 1px solid #000000;
   width: 8rem;
   height: 8rem;
-  margin: 2rem;
+  padding: 5px;
   cursor: pointer;
-  background-color: lightblue;
+  background-color: white;
 }
+
 .card:hover {
-  background-color: rgb(241, 44, 103);
+  background-color: #316eb2;
+  color: white;
 }
