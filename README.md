@@ -1,3 +1,3 @@
-## Skill-Classification mockup
+chavel-skills-classification live demo:
 
-visit https://skills-classification-mockup.netlify.app/ for the mockup.
+https://chavl-skills-classification.netlify.app/ 

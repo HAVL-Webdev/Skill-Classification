@@ -19,9 +19,6 @@ function App() {
           <Route exact path='/skillcluster' component={SkillCluster} />
           <Route exact path='/skill' component={Skill} />
           <Route exact path='/job' component={Job} />
-          {/* <Route exact path='/careerchange/skill' component={SkillB} /> */}
-          <Route exact path='/result_a' component={Result_A} />
-          {/* <Route exact path='/result_b' component={Result_B} /> */}
         </Switch>
         <Footer />
       </div>
