@@ -8,10 +8,17 @@ header {
     width: 50%;
 }
 
+#blue_bar {
+    position: absolute;
+    left: 0;
+    background-color: #1b75bc;
+    width: 100%;
+    height: 20px;
+}
+
 header ul {
     display: flex;
     list-style-type: none;
-    width: 100%;
     justify-content: right;
 }
 
@@ -25,8 +32,7 @@ header ul li {
     margin: 60px auto 2rem;
 }
 
-#blue_bar {
-    background-color: #1b75bc;
-    width: 100%;
-    height: 20px;
+a {
+    text-decoration: none;
+    color: #1b75bc;
 }

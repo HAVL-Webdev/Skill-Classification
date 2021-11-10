@@ -6,7 +6,7 @@ import SkillCluster from "./pages/skillCluster/SkillCluster";
 import Skill from "./pages/skill/Skill";
 import Job from "./pages/job/Job";
 //import SkillB from "./pages/careerChange/Skill";
-import Result_A from "./pages/result/Result_A";
+//import Result_A from "./pages/result/Result_A";
 //import Result_B from "./pages/result/Result_B";
 
 function App() {

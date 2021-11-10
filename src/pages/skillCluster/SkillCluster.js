@@ -11,6 +11,14 @@ function SkillCluster(props) {
   return (
     <div id="skillcluster_wrapper">
       <h1>Choose a Skill Cluster</h1>
+      <div id="paragraph_wrapper">
+        <p>Skill clusters show groups of similar specialist tasks. These specialist tasks are designed to describe day-to-day work within an occupation.
+          These tasks are broadly transferrable - if you can do one task in the cluster, you can do the others. Skill clusters illustrate a new way of
+          looking at the labour market at a 'deeper' level than occupational classifications or qualifications. This view shows how skills are related 
+          and connected to one another and illustrates the transferability of skills accross occupations.
+        </p>
+      </div>
+
       <div className='container'>
         {skillClusters.map(skillCluster => {
           return (

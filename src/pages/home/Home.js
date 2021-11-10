@@ -5,14 +5,8 @@ function Home() {
   return (
     <div className='home'>
       <div id="home_wrapper">
-        <h1>Home</h1>
-        <p>Adipisicing laboris consequat aliqua mollit aute eu. Quis veniam 
-          nulla elit aliquip. Fugiat ad quis ipsum elit consectetur voluptate 
-          cillum est eiusmod ut. Officia esse proident est do Lorem nostrud 
-          est ipsum reprehenderit ullamco proident commodo sint dolore. 
-          Minim excepteur velit in ipsum tempor adipisicing sit minim est 
-          amet elit duis. Exercitation aute occaecat occaecat sit velit laboris 
-          ullamco labore in tempor.</p>
+        <h1>Welcome to CHAVL.</h1>
+        <p>Please click the 'Get Started' button to explore possible career opportunities.</p>
         <div className='buttons'>
           <NavLink to='/skillcluster'>
             <button>Get Started</button>

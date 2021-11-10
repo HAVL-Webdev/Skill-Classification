@@ -4,12 +4,16 @@
     text-align: center;
     align-items: center;
     background-color: #e6e7e8;
-    width: 50%;
     margin: 0 auto;
 }
 
 #skillcluster_wrapper .container {
+    display: flex;
     width: 100%;
     justify-content: center;
     padding-bottom: 3rem;
+}
+
+#paragraph_wrapper {
+    width: 50%;
 }
