@@ -29,10 +29,18 @@ header ul li {
 .logo {
     display: block;
     width: 25%;
+    min-width: 150px;
     margin: 60px auto 2rem;
 }
 
 a {
     text-decoration: none;
     color: #1b75bc;
+}
+
+@media screen and (max-width: 768px) {
+    header ul {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
