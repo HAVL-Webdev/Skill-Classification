@@ -11,7 +11,7 @@ const Job = (props) => {
                 <h1>This skill is used in the following roles:</h1>
                 <div>
                     <ul>
-                        {jobs && jobs.map((job, index) => <li key={index}>{job.title}</li>)}
+                        {jobs && jobs.map((job, index) => <li key={index}>{job.title}&nbsp;{job.Percent}</li>)}
                     </ul>
                 </div>
             </div>
