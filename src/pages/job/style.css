@@ -1,9 +1,13 @@
 #job_wrapper {
-    text-align: center;
+    text-align: left;
     background-color: #e6e7e8;
-
     margin: 0 auto;
     padding-bottom: 3rem;
+}
+
+#job_wrapper #container {
+    width: 33%;
+    margin: 0 auto;
 }
 
 #job_wrapper ul {
