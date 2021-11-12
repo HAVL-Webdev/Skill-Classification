@@ -11,9 +11,7 @@ const skills = [
         { title: "Film, Television, Radio and Stage Directors", Percent: "4%" },
         { title: "Film and Video Editor", Percent: "4%" },
         { title: "Broadcast Transmitter Operator", Percent: "3%" },
-        { title: "Camera Operator (Film, Television or Video)", Percent: "1%" },
-        { title: "Illustrator", Percent: "0%" },
-        { title: "Visual Arts and Crafts Professionals", Percent: "0%" },
+        { title: "Camera Operator (Film, Television or Video)", Percent: "1%" }
       ],
     },
     {
@@ -50,8 +48,7 @@ const skills = [
         { title: "Analyst Programmer", Percent: "3%" },
         { title: "Developer Programmer", Percent: "3%" },
         { title: "Secretary (General)", Percent: "3%" },
-        { title: "Hardware Technician", Percent: "2%" },
-        { title: "Library Assistants", Percent: "0%" },
+        { title: "Hardware Technician", Percent: "2%" }
       ],
     },
     {

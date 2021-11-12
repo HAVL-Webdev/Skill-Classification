@@ -10,7 +10,7 @@ const Job = (props) => {
             <h1>Skill used in following roles</h1>
             <div>
                 <ul>
-                    {jobs && jobs.map((job, index) => <li key={index}>{job.title}</li>)}
+                    {jobs && jobs.map((job, index) => <li key={index}>{job.title}&nbsp;{job.Percent}</li>)}
                 </ul>
             </div>
         </div>
