@@ -5,6 +5,12 @@ import Home from "../src/pages/home/Home";
 import SkillCluster from "./pages/skillCluster/SkillCluster";
 import Skill from "./pages/skill/Skill";
 import Job from "./pages/job/Job";
+<<<<<<< HEAD
+=======
+//import SkillB from "./pages/careerChange/Skill";
+//import Result_A from "./pages/result/Result_A";
+//import Result_B from "./pages/result/Result_B";
+>>>>>>> a771d0e344b03a856b07ee78d24bf0449acedf99
 
 function App() {
   return (
