@@ -1,46 +1,51 @@
 header {
-    display: flex;
-    justify-content: center;
-    font-size: 14px;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
 }
 
 .container {
-    width: 50%;
+  width: 50%;
 }
 
 #blue_bar {
-    position: absolute;
-    left: 0;
-    background-color: #1b75bc;
-    width: 100%;
-    height: 20px;
+  position: absolute;
+  left: 0;
+  background-color: #1b75bc;
+  width: 100%;
+  height: 20px;
 }
 
 header ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: right;
+  display: flex;
+  list-style-type: none;
+  justify-content: right;
 }
 
 header ul li {
-    padding: 0 1vw;
+  padding: 0 1vw;
+  color: #000;
 }
 
 .logo {
-    display: block;
-    width: 25%;
-    min-width: 150px;
-    margin: 60px auto 2rem;
+  display: block;
+  width: 25%;
+  min-width: 150px;
+  margin: 60px auto 2rem;
 }
 
 a {
-    text-decoration: none;
-    color: #1b75bc;
+  text-decoration: none;
+  color: #000;
+}
+.selected {
+  color: #1b75bc;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 768px) {
-    header ul {
-        flex-direction: column;
-        justify-content: center;
-    }
+  header ul {
+    flex-direction: column;
+    justify-content: center;
+  }
 }

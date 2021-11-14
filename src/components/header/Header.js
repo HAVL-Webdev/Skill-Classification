@@ -1,23 +1,31 @@
-import logo from '../../images/CHAVL_Logo_V2.png';
-import './Header.css';
-import { Link } from "react-router-dom";
+import logo from '../../images/CHAVL_Logo_V2.png'
+import './Header.css'
+import { NavLink } from 'react-router-dom'
 
 const Header = () => (
-    <header>
-        <div class="container">
-            <section id="blue_bar"></section>
+  <header>
+    <div class="container">
+      <section id="blue_bar"></section>
 
-            <Link to='/'>
-                <img className="logo" src={logo} alt={logo} />
-            </Link>
-            
-            <ul>
-                <li><Link to='/'>Home</Link></li>
-                <li>About</li>
-                <li>Occupation Profile</li>
-            </ul>
-        </div>
-    </header>
+      <NavLink to="/">
+        <img className="logo" src={logo} alt={logo} />
+      </NavLink>
+
+      <ul>
+        <li>
+          <NavLink to="/" activeClassName="selected" exact={true}>
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink to="/about" activeClassName="selected">
+            About
+          </NavLink>
+        </li>
+        <li>Occupation Profile</li>
+      </ul>
+    </div>
+  </header>
 )
 
-export default Header;
+export default Header
